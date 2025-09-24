@@ -1,5 +1,5 @@
 {
-  "last_maintenance": "2025-09-23T20:27:18.045274-04:00",
+  "last_maintenance": "2025-09-24T02:02:46Z",
   "status": "HEALTHY",
   "schedule": "TWICE_DAILY",
   "next_runs": [
@@ -16,6 +16,7 @@
   "maintenance_summary": {
     "frequency_updated": "hourly -> twice_daily",
     "schedule_optimized": true,
-    "last_run_successful": true
+    "last_run_successful": true,
+    "hourly_check_completed": "2025-09-24T02:02:46Z"
   }
 }
