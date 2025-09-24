@@ -1,6 +1,11 @@
 {
-  "last_maintenance": "2025-09-23T20:03:57.364175-04:00",
+  "last_maintenance": "2025-09-23T20:27:18.045274-04:00",
   "status": "HEALTHY",
+  "schedule": "TWICE_DAILY",
+  "next_runs": [
+    "2025-09-24T09:00:00Z",
+    "2025-09-24T21:00:00Z"
+  ],
   "components": {
     "git_repository": "OPERATIONAL",
     "remote_sync": "OPERATIONAL",
@@ -8,11 +13,9 @@
     "quality_gates": "OPERATIONAL",
     "cleanup": "COMPLETED"
   },
-  "next_scheduled": "2025-09-23T21:03:57.364215-04:00",
   "maintenance_summary": {
-    "commits_processed": 1,
-    "backup_created": true,
-    "quality_checks": "PASSED",
-    "cleanup_performed": true
+    "frequency_updated": "hourly -> twice_daily",
+    "schedule_optimized": true,
+    "last_run_successful": true
   }
 }
