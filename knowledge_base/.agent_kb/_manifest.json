@@ -1,0 +1,68 @@
+{
+  "project_name": "YouTube Autopilot",
+  "project_type": "youtube_automation",
+  "version": "1.0.0",
+  "description": "Automated YouTube channel management system for PastMysteryFiles with 95% automation and human oversight",
+  "channel_info": {
+    "name": "PastMysteryFiles",
+    "handle": "@pastmysteryfiles-l5g",
+    "theme": "Uncovering History's Greatest Mysteries",
+    "host": "Professor Archibald Blackwood"
+  },
+  "knowledge_structure": {
+    "core_docs": {
+      "description": "Foundational knowledge about the YouTube automation system",
+      "files": [
+        "00_system_persona_and_directives.md",
+        "01_automation_workflows.md",
+        "02_content_guidelines.md"
+      ]
+    },
+    "knowledge_cards": {
+      "analytics": {
+        "description": "Performance metrics, KPIs, and analytics data",
+        "examples": ["channel_metrics", "video_performance", "audience_insights"]
+      },
+      "content": {
+        "description": "Content creation guidelines, templates, and examples",
+        "examples": ["video_templates", "thumbnail_styles", "seo_patterns"]
+      },
+      "automation": {
+        "description": "Automation workflows, schedules, and configurations",
+        "examples": ["upload_schedule", "processing_pipeline", "quality_checks"]
+      },
+      "performance": {
+        "description": "Performance optimization and A/B testing data",
+        "examples": ["ab_test_results", "optimization_strategies", "best_practices"]
+      }
+    }
+  },
+  "integration_settings": {
+    "knowledge_retrieval": {
+      "method": "RAG",
+      "embedding_model": "text-embedding-ada-002",
+      "vector_store": "ChromaDB",
+      "search_method": "semantic_similarity"
+    },
+    "caching": {
+      "strategy": "multi_tier",
+      "core_docs_cache": "memory_persistent",
+      "knowledge_cards_cache": "redis_dynamic",
+      "ttl_default": 3600
+    },
+    "context_engineering": {
+      "max_context_length": 128000,
+      "context_overlap": 200,
+      "chunk_size": 1000,
+      "retrieval_top_k": 5
+    }
+  },
+  "automation_features": {
+    "content_pipeline": ["transcription", "seo_generation", "thumbnail_creation", "upload_scheduling"],
+    "analytics_tracking": ["daily_kpis", "performance_monitoring", "trend_analysis"],
+    "ab_testing": ["title_testing", "thumbnail_testing", "avatar_testing"],
+    "human_oversight": ["go_no_go_approval", "content_review", "schedule_management"]
+  },
+  "created_at": "2025-09-25T08:00:00Z",
+  "updated_at": "2025-09-25T08:00:00Z"
+}
