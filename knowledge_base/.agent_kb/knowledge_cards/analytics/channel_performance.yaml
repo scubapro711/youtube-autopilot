@@ -1,0 +1,89 @@
+name: "Channel Performance Metrics"
+category: "analytics"
+type: "performance_data"
+description: "Current channel performance metrics and KPI tracking for PastMysteryFiles"
+
+current_metrics:
+  subscribers: 15420
+  total_views: 2847392
+  total_videos: 127
+  average_view_duration: "6:42"
+  click_through_rate: 4.2
+  engagement_rate: 2.8
+
+monthly_targets:
+  subscriber_growth: 500
+  view_growth_percentage: 15
+  ctr_target: 4.0
+  avg_view_duration_target: "6:30"
+  engagement_rate_target: 2.5
+
+top_performing_videos:
+  - title: "The Disappearance of the Roanoke Colony"
+    views: 89432
+    ctr: 6.8
+    avg_view_duration: "8:23"
+    published: "2025-08-15"
+  
+  - title: "The Mystery of the Antikythera Mechanism"
+    views: 76521
+    ctr: 5.9
+    avg_view_duration: "7:45"
+    published: "2025-08-22"
+  
+  - title: "Who Built Stonehenge and Why?"
+    views: 68934
+    ctr: 5.2
+    avg_view_duration: "7:12"
+    published: "2025-09-01"
+
+content_categories_performance:
+  ancient_mysteries:
+    video_count: 45
+    avg_views: 32450
+    avg_ctr: 4.5
+    
+  unsolved_disappearances:
+    video_count: 38
+    avg_views: 28930
+    avg_ctr: 4.1
+    
+  archaeological_discoveries:
+    video_count: 44
+    avg_views: 25670
+    avg_ctr: 3.8
+
+audience_demographics:
+  age_groups:
+    "25-34": 28
+    "35-44": 24
+    "45-54": 22
+    "18-24": 15
+    "55-64": 11
+  
+  geography:
+    united_states: 45
+    united_kingdom: 18
+    canada: 12
+    australia: 8
+    other: 17
+
+performance_trends:
+  last_30_days:
+    views_change: "+12%"
+    subscribers_change: "+8%"
+    ctr_change: "+0.3%"
+    engagement_change: "+5%"
+  
+  seasonal_patterns:
+    best_months: ["October", "November", "December"]
+    best_days: ["Tuesday", "Thursday", "Saturday"]
+    best_times: ["7:00 PM EST", "2:00 PM EST"]
+
+optimization_opportunities:
+  - "Increase content in 'ancient mysteries' category (highest performing)"
+  - "Improve thumbnail design for archaeological content"
+  - "Experiment with longer-form content (10+ minutes)"
+  - "Develop more interactive community posts"
+
+last_updated: "2025-09-25T08:00:00Z"
